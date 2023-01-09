@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+
+body {
+     margin: 0;
+     font-family: sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 25px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+.info h2 a {
+    font-family: arvo;
+    font-weight: 400;
+}
+.info h3 a {
+    font-family: arvo;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+   
+}
+.testmonital {
+    background: skyblue;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 20px;
+}
+#section-padding {
+    padding: 60px 0;
+}
+
+.image-thumb {
+    margin: 15px;
+    text-align: center;
+}
+.image-thumb img {
+    width: inherit !important;
+    display: inline-block;
+    margin: auto;
+    border-radius: 50%;
+}
+.info  h2 a,
+.info h3 a{
+    color: #fff;
+    text-align:center;
+    margin: auto;
+   
+} 
+
+.testmonial-item {
+    background: orange;
+    padding: 30px 20px;
+    border-radius: 10px;
+    
+}
+.info  h2, h3 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+.star-icons {
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: rgb(15, 15, 12);
+    border:1px solid #fff;
+    padding:2px solid skyblue;
+}
+.owl-theme .owl-dots .owl-dot span {
+    padding: 2px solid skyblue;
+    border: 1px solid #fff;
+}
+
+
+@media screen and (max-width:1199.98px){
+    .container{
+        max-width:100%;
+        padding: 0 60px;
+    }
+}
